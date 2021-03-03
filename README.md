@@ -1,0 +1,2 @@
+# BSS-PLSR-for-Spectroscopy-Analysis
+Blind Source Separation - Partial Least Squares Regression framework for the  analyzing spectroscopy mixture data, such as Raman and FTIR. The BSS code identifies the sources in the mixture, which are then correlated with reference spectra of the chemical species. If the user has defined target species which need to be singles out and quantified, the signals of the non-target species can be subtracted from the mixtures. Finally, PLSR is performed on the BSS-preprocessed mixtures to quantify the concentrations. 
